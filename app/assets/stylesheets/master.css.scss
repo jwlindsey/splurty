@@ -1,5 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+// No longer using a google font
+//@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .clear {
   clear:both;
@@ -40,6 +42,7 @@ padding-top: 26px;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'fira_sanslight', 'fira_sanslight_italic';
 }
 
 header{
@@ -48,4 +51,15 @@ header{
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'fira_sansregular', 'fira_sansmedium';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'fira_sanslight', 'fira_sanslight_italic';
+  font-size: 36px;
 }
