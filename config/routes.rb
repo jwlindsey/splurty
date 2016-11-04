@@ -54,4 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'quotes#index'
+
+  resources :quotes
+  # The priority is based upon order of creation: first created -> highest priority.
 end

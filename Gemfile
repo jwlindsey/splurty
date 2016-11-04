@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Include bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
+# Create a simple-form
+gem 'simple_form'
 # Include sprockets
 gem 'sprockets', '2.11.0'
 # Use Sass for Stylesheets
