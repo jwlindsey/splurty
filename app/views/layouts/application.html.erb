@@ -30,7 +30,19 @@
 
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
 
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "It's one of those couch days, I need more motivation", "#", class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Timidly made in Austin, Tx by <a href="https://github.com/jwlindsey">James Lindsey</a><br />
+    </div>
+  </div>
+</div>
 </body>
 </html>
